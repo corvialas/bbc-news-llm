@@ -12,6 +12,10 @@ The project uses a zero-shot approach with prompt engineering and parameter tuni
 - **Name**: BBC Articles Dataset  
 - **Source**: [Kaggle – jacopoferretti/bbc-articles-dataset](https://www.kaggle.com/datasets/jacopoferretti/bbc-articles-dataset)
 
+## Output Files
+- `output/classification_results.csv`: Ground truth and model predictions for classification
+- `output/sample_summaries.txt`: Generated summaries for 5 random articles
+  
 ## Insight & Findings
 - **Classification Accuracy (after tuning):** ~80%  
 - Most misclassifications occurred between semantically related categories (e.g., business vs. politics).
